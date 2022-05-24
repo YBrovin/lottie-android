@@ -3,10 +3,10 @@ package com.airbnb.lottie.utils;
 import android.animation.ValueAnimator;
 import android.view.Choreographer;
 
-import androidx.annotation.FloatRange;
-import androidx.annotation.MainThread;
-import androidx.annotation.Nullable;
-import androidx.annotation.VisibleForTesting;
+import android.support.annotation.FloatRange;
+import android.support.annotation.MainThread;
+import android.support.annotation.Nullable;
+import android.support.annotation.VisibleForTesting;
 
 import com.airbnb.lottie.L;
 import com.airbnb.lottie.LottieComposition;

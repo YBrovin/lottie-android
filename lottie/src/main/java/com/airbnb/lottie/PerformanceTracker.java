@@ -2,8 +2,8 @@ package com.airbnb.lottie;
 
 import android.util.Log;
 
-import androidx.collection.ArraySet;
-import androidx.core.util.Pair;
+import android.support.v4.util.ArraySet;
+import android.support.v4.util.Pair;
 
 import com.airbnb.lottie.utils.MeanCalculator;
 

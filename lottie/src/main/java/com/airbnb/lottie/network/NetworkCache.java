@@ -3,9 +3,9 @@ package com.airbnb.lottie.network;
 
 import android.util.Pair;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.annotation.WorkerThread;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.annotation.WorkerThread;
 
 import com.airbnb.lottie.utils.Logger;
 

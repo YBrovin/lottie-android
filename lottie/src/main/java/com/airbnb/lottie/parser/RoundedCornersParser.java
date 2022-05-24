@@ -2,7 +2,7 @@ package com.airbnb.lottie.parser;
 
 import android.graphics.PointF;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import com.airbnb.lottie.LottieComposition;
 import com.airbnb.lottie.model.animatable.AnimatableFloatValue;

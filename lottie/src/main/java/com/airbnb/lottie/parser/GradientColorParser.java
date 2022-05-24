@@ -2,7 +2,7 @@ package com.airbnb.lottie.parser;
 
 import android.graphics.Color;
 
-import androidx.annotation.IntRange;
+import android.support.annotation.IntRange;
 
 import com.airbnb.lottie.model.content.GradientColor;
 import com.airbnb.lottie.parser.moshi.JsonReader;

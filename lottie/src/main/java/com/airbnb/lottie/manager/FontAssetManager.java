@@ -5,7 +5,7 @@ import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import com.airbnb.lottie.FontAssetDelegate;
 import com.airbnb.lottie.model.MutablePair;

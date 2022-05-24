@@ -15,7 +15,7 @@
  */
 package com.airbnb.lottie.parser.moshi;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import java.io.IOException;
 

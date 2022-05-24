@@ -1,6 +1,6 @@
 package com.airbnb.lottie.animation.keyframe;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import com.airbnb.lottie.model.DocumentData;
 import com.airbnb.lottie.value.Keyframe;

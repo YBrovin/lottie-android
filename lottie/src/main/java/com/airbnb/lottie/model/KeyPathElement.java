@@ -1,9 +1,9 @@
 package com.airbnb.lottie.model;
 
-import static androidx.annotation.RestrictTo.Scope.LIBRARY;
+import static android.support.annotation.RestrictTo.Scope.LIBRARY;
 
-import androidx.annotation.Nullable;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.Nullable;
+import android.support.annotation.RestrictTo;
 
 import com.airbnb.lottie.value.LottieValueCallback;
 

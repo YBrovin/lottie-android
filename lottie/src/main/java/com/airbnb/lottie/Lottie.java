@@ -1,6 +1,6 @@
 package com.airbnb.lottie;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 /**
  * Class for initializing the library with custom config

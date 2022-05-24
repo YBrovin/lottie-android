@@ -3,7 +3,7 @@ package com.airbnb.lottie.parser;
 import android.graphics.Color;
 import android.graphics.PointF;
 
-import androidx.annotation.ColorInt;
+import android.support.annotation.ColorInt;
 
 import com.airbnb.lottie.parser.moshi.JsonReader;
 

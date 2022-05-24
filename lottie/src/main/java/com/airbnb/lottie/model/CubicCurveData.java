@@ -1,12 +1,12 @@
 package com.airbnb.lottie.model;
 
-import static androidx.annotation.RestrictTo.Scope.LIBRARY;
+import static android.support.annotation.RestrictTo.Scope.LIBRARY;
 
 import android.annotation.SuppressLint;
 import android.graphics.PointF;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.RestrictTo;
+import android.support.annotation.NonNull;
+import android.support.annotation.RestrictTo;
 
 /**
  * One cubic path operation. CubicCurveData is structured such that it is easy to iterate through

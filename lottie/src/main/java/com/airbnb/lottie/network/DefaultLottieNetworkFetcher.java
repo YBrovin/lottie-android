@@ -1,6 +1,6 @@
 package com.airbnb.lottie.network;
 
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

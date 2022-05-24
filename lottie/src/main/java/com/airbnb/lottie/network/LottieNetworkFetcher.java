@@ -1,7 +1,7 @@
 package com.airbnb.lottie.network;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.WorkerThread;
+import android.support.annotation.NonNull;
+import android.support.annotation.WorkerThread;
 
 import java.io.IOException;
 

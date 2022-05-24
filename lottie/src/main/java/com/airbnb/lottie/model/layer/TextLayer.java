@@ -8,8 +8,8 @@ import android.graphics.Path;
 import android.graphics.RectF;
 import android.graphics.Typeface;
 
-import androidx.annotation.Nullable;
-import androidx.collection.LongSparseArray;
+import android.support.annotation.Nullable;
+import android.support.v4.util.LongSparseArray;
 
 import com.airbnb.lottie.LottieComposition;
 import com.airbnb.lottie.LottieDrawable;
@@ -439,7 +439,8 @@ public class TextLayer extends BaseLayer {
       key = key * 31 + nextCodePoint;
     }
 
-    if (codePointCache.containsKey(key)) {
+    // if (codePointCache.containsKey(key)) {
+    if (codePointCache.indexOfKey(key) >= 0) {
       return codePointCache.get(key);
     }
 

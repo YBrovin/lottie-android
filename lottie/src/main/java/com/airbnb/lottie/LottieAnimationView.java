@@ -15,16 +15,16 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
 
-import androidx.annotation.AttrRes;
-import androidx.annotation.DrawableRes;
-import androidx.annotation.FloatRange;
-import androidx.annotation.MainThread;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.annotation.RawRes;
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.content.res.AppCompatResources;
-import androidx.appcompat.widget.AppCompatImageView;
+import android.support.annotation.AttrRes;
+import android.support.annotation.DrawableRes;
+import android.support.annotation.FloatRange;
+import android.support.annotation.MainThread;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.annotation.RawRes;
+import android.support.annotation.RequiresApi;
+import android.support.v7.content.res.AppCompatResources;
+import android.support.v7.widget.AppCompatImageView;
 
 import com.airbnb.lottie.model.KeyPath;
 import com.airbnb.lottie.utils.Logger;

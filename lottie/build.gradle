@@ -31,7 +31,8 @@ android {
 }
 
 dependencies {
-  implementation "androidx.appcompat:appcompat:$appcompatVersion"
+  implementation "com.android.support:appcompat-v7:$appcompatVersion"
+  //implementation "androidx.appcompat:appcompat:$appcompatVersion"
   // Do not upgrade to 2.0 because it will bring in Kotlin as a transitive dependency.
   //noinspection GradleDependency
   implementation("com.squareup.okio:okio:1.17.4")
@@ -43,8 +44,8 @@ dependencies {
   testImplementation "org.mockito:mockito-core:$mockitoVersion"
   testImplementation "org.robolectric:robolectric:$robolectricVersion"
   testImplementation "junit:junit:$junitVersion"
-  androidTestImplementation "androidx.test.ext:junit:$extJunitVersion"
-  androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
+//  androidTestImplementation "androidx.test.ext:junit:$extJunitVersion"
+//  androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
 }
 
 task sourcesJar(type: Jar) {
